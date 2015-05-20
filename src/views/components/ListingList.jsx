@@ -100,7 +100,7 @@ class ListingList extends React.Component {
     );
     this.length = listings.length;
 
-    return <span>{listings}</span>;
+    return <span ref="listingList">{listings}</span>;
   }
 }
 
