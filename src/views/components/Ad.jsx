@@ -66,6 +66,7 @@ class Ad extends BaseComponent {
         .send({
           srnames: srnames,
           is_mobile_web: true,
+          loid: globals().app.state.loid
         })
         .end(function(err, res) {
           if (err) {
