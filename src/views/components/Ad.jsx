@@ -175,6 +175,7 @@ class Ad extends BaseComponent {
 Ad.propTypes = {
   afterLoad: React.PropTypes.func.isRequired,
   compact: React.PropTypes.bool.isRequired,
+  user: React.PropTypes.object,
 };
 
 export default Ad;
