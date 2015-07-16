@@ -66,7 +66,7 @@ class Ad extends BaseComponent {
     };
     // If user is not logged in, send the loid in the promo request
     if (!this.props.user) {
-      postData['loid'] = globals().app.state.loid;
+      postData.loid = globals().app.state.loid;
     }
 
     return new Promise((resolve, reject) => {
